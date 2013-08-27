@@ -13,8 +13,11 @@ body{
   transition: ease .2s;
 }
 .fancy-heading, .work a, h1, h2, h3, h4{
-  font-weight: 100;
   font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+b, strong{
+  font-weight: 400;
 }
 #logo{
   line-height: 50px;
@@ -45,6 +48,7 @@ body{
 }
 .competencies .abs{
   width: 100%;
+  opacity: 0.85;
 }
 .competencies .columns{
   padding: 0;
@@ -68,7 +72,6 @@ body{
 }
 .competencies .anim .bottom{
   text-align: center;
-  height: 
 }
 .services{
   margin-top: 2em;
@@ -77,8 +80,8 @@ body{
   border-bottom: 1px solid rgba(0,0,0,0.3);
   background: rgba(0,0,0,0.05);
 }
-.services .columns h3{
-  font-size: 2.2em;
+.services .columns h2{
+  font-size: 2.5em;
   text-align: center;
 }
 .services .columns p{
