@@ -130,6 +130,16 @@ a.anim{
   -webkit-transform: translateZ(56px) translateY(-56px) rotateX(0deg);
   -moz-transform: translateZ(56px) translateY(-56px) rotateX(0deg);
 }
+.contact{
+  border-top: 1px solid rgba(0,0,0,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.05);
+  padding: 2em 0;
+  height: 256px;
+}
+.contact h2{
+  text-align: center;
+}
 #footer{
   border-top: 1px solid rgba(0,0,0,0.3);
   background: rgba(0,0,0,0.05);
