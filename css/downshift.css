@@ -101,7 +101,7 @@ i[class^="icon-"]{
   background: #bedd15; 
 }
 .work{
-  margin-top: 4em;
+  padding-top: 4em;
   margin-bottom: 4em;
 }
 .work .row{
@@ -155,10 +155,11 @@ a.anim{
   color: #bedd15 !important; 
 }
 .contact .tint{
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.7);
   border-radius: 10px;
   padding: 10px 35px;
   text-align: center;
+  margin-top: 25em;
 }
 .contact span{
   background-color: transparent;
