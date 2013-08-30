@@ -19,6 +19,12 @@ body{
 b, strong{
   font-weight: 400;
 }
+ul{
+  list-style: none;
+}
+i[class^="icon-"]{
+  display: inline-block !important;
+}
 #logo{
   line-height: 50px;
   vertical-align: middle;
@@ -61,7 +67,7 @@ b, strong{
 }
 .competencies span{
   font-size: 1.2em;
-  vertical-align: text-top;
+  vertical-align: top;
 }
 .competencies .anim{
   margin: 1em 1em -1.5em 1em;
@@ -95,7 +101,11 @@ b, strong{
   background: #bedd15; 
 }
 .work{
-  margin-top: 2em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.work .row{
+  margin-bottom: 2em;
 }
 a.anim{
   text-transform: uppercase;
@@ -131,21 +141,52 @@ a.anim{
   -moz-transform: translateZ(56px) translateY(-56px) rotateX(0deg);
 }
 .contact{
-  border-top: 1px solid rgba(0,0,0,0.3);
-  border-bottom: 1px solid rgba(0,0,0,0.3);
-  background: rgba(0,0,0,0.05);
-  padding: 2em 0;
-  height: 256px;
+  border-top: 1px solid rgba(0,0,0,0.7);
+  background: url(/img/talks.jpg);
+  background-size: cover;
+  background-position: center bottom;
 }
-.contact h2{
+.contact a{
+  color: #fff !important;
+  font-size: 3em;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+}
+.contact a:hover{
+  color: #bedd15 !important; 
+}
+.contact ul{
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 35px;
   text-align: center;
+}
+.contact li{
+  display: inline-block;
+}
+.contact li span{
+  background-color: transparent;
+  color: transparent;
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  display: none;
+}
+.overlay{
+  background: url(/img/overlay.png);
+  height: 699px;
+  padding: 2em 0;
+}
+.iconz a{
+  margin: 0 0.2em;
 }
 #footer{
-  border-top: 1px solid rgba(0,0,0,0.3);
-  background: rgba(0,0,0,0.05);
+  border-top: 2px solid #000;
   text-align: center;
-  margin-top: 2em;
-  padding: 1em 0;
+  padding: 3em 0 3em 0;
+  background: url(/img/blackorchid.png);
+  color: #555;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
 }
 @media only screen and (min-width: 768px) {
   .abs{
@@ -153,6 +194,6 @@ a.anim{
   }
   .competencies .anim{
     width: 300px;
-    margin: -32.3% auto 0 auto;
+    margin: -32% auto 0 auto;
   }
 }
