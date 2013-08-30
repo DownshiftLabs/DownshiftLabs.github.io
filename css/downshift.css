@@ -148,23 +148,19 @@ a.anim{
 }
 .contact a{
   color: #fff !important;
-  font-size: 3em;
+  font-size: 2.5em;
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
 }
 .contact a:hover{
   color: #bedd15 !important; 
 }
-.contact ul{
-  background: rgba(0,0,0,0.5);
-  display: inline-block;
+.contact .tint{
+  background: rgba(0,0,0,0.6);
   border-radius: 10px;
   padding: 10px 35px;
   text-align: center;
 }
-.contact li{
-  display: inline-block;
-}
-.contact li span{
+.contact span{
   background-color: transparent;
   color: transparent;
   border: 0;
@@ -195,5 +191,9 @@ a.anim{
   .competencies .anim{
     width: 300px;
     margin: -32% auto 0 auto;
+  }
+
+  .tel a, .iconz a{
+    font-size: 3.5em;
   }
 }
