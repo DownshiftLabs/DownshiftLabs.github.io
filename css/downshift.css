@@ -107,6 +107,14 @@ i[class^="icon-"]{
 .work .row{
   margin-bottom: 2em;
 }
+.read-more-work{
+  text-align: center;
+}
+.read-more-work a{
+  color: #222 !important;
+  font-weight: 400;
+  text-decoration: underline;
+}
 a.anim{
   text-transform: uppercase;
   font-size: 1.7em;
