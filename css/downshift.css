@@ -16,6 +16,9 @@ body{
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
 }
+h2{
+  margin: 0.5em 0 0 0;
+}
 b, strong{
   font-weight: 400;
 }
@@ -185,6 +188,16 @@ a.anim{
 .iconz a{
   margin: 0 0.2em;
 }
+#posts h2{
+  background: rgba(190,221,21, 1);
+  color: #000 !important;
+  display: inline-block;
+  font-size: 1.8em;
+}
+.more{
+  text-decoration: underline;
+  color: #222 !important;
+} 
 #footer{
   border-top: 2px solid #000;
   text-align: center;

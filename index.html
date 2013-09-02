@@ -36,14 +36,14 @@ layout: default
   {% for post in site.posts limit:4 %}
   {% cycle 'group1': '<div class="row">','' %}
     <div class="large-6 small-12 columns">
-      <a class="anim" href="#"><div class="front">Custom Automotive <b>eCommerce</b></div><div class="bottom">Deployed and going <b>strong</b></div></a>
-      <p>A rapidly growing e-tailer needed a professional to plan and implement a truly custom industry-compliant eCommerce deployment.</p>
+      <a class="anim" href="{{ post.url }}"><div class="front">{{ post.title }}</div><div class="bottom">{{ post.subhead }}</div></a>
+      <p>{{ post.excerpt }}</p>
     </div>
   {% cycle 'group2': '', '</div>' %}
   {% endfor %}
 
   <div class="read-more-work">
-    <a href="/blog.html">I've got more written down here</a>
+    <a href="/blog.html">See the entire archive</a>
   </div>
 </div>
 
