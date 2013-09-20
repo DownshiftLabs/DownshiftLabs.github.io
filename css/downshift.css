@@ -2,6 +2,7 @@ body{
   background: url(/img/subtle_dots.png);
   font-weight: 400 !important;
   font-family: 'Raleway', sans-serif;
+  padding-bottom: 50px;
 }
 .fixed.contain-to-grid{
   height: 50px;
@@ -188,23 +189,49 @@ a.anim{
 .iconz a{
   margin: 0 0.2em;
 }
-#posts h2{
+#posts .title{
   background: rgba(190,221,21, 1);
   color: #000 !important;
   display: inline-block;
-  font-size: 1.8em;
+  font-size: 0.9em;
 }
+
+#posts h2{
+  margin: 0.5em 0 0 0.5em;
+}
+
 .more{
   text-decoration: underline;
   color: #222 !important;
 } 
+
+#posts .date{
+  background: #222;
+  color: #fff;
+  float: right;
+  padding: 3px;
+}
+
+#posts .excerpt{
+  margin: 1em 0 5em 0;
+}
+
+.body{
+  background: #fff;
+  box-shadow: 0 0 19px rgba(0,0,0,0.1);
+  padding: 2em 1em;
+  margin: 1em 0;
+}
 #footer{
+  padding: 1em 0;
   border-top: 2px solid #000;
   text-align: center;
-  padding: 3em 0 3em 0;
   background: url(/img/blackorchid.png);
   color: #555;
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 @media only screen and (min-width: 768px) {
   .abs{
