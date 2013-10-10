@@ -23,7 +23,7 @@ layout: default
     </div>
     <div class="large-4 small-12 columns">
       <h2>Audit</h2>
-      <p>From <a href="#">frontend performance</a> to <a href="#">longterm SEO strategy</a>, I conduct internal &amp; external product audits. </p>
+      <p>From <a href="/2013/08/25/tuning-frontend-performance.html">frontend performance</a> to <a href="/2013/08/30/organic-seo-strategy.html">longterm SEO strategy</a>, I conduct internal &amp; external product audits. </p>
     </div>
     <div class="large-4 small-12 columns">
       <h2>Program</h2>
@@ -33,42 +33,18 @@ layout: default
 </div>
 
 <div class="work" id="work">
-  {% for post in site.posts limit:4 %}
+  {% for post in site.posts %}
+  {% if post.featured %}
   {% cycle 'group1': '<div class="row">','' %}
     <div class="large-6 small-12 columns">
       <a class="anim" href="{{ post.url }}"><div class="front">{{ post.title }}</div><div class="bottom">{{ post.subhead }}</div></a>
       <p>{{ post.excerpt }}</p>
     </div>
   {% cycle 'group2': '', '</div>' %}
+  {% endif %}
   {% endfor %}
 
   <div class="read-more-work">
     <a href="/blog.html">See the entire archive</a>
   </div>
 </div>
-
-<div class="contact" id="contact">
-  <div class="overlay">
-    <div class="row">
-      <div class="large-6 large-centered small-12 small-centered columns">
-        <div class="tint">
-          <div class="iconz">
-            <a target="_blank" href="https://twitter.com/jumph4x"><i class="large icon-twitter-sign"></i><span> twitter</span></a>
-            <a target="_blank" href="https://github.com/jumph4x"><i class="large icon-github-sign"></i><span> github</span></a>
-            <a target="_blank" href='ma&#105;lto&#58;&#37;6&#52;%&#54;5n&#105;&#115;%&#52;0dow%6&#69;s&#104;iftlabs&#46;&#99;o%6D'><i class="large icon-envelope"></i><span> email</span></a>
-          </div>
-          <div class="tel">
-            <a href="tel:4157543696">415.754.3696</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-  <!--
-<p>I'm Denis and <a href="/people.html">together with a few others</a> I can make things for the web that will help your business.</p>
-<p>I am seriously into all things with motors. Specifically, I love to <a href="https://www.google.com/search?tbm=isch&q=autocross+nc+miata">autocross my Miata roadster</a> and <a href="https://www.google.com/search?tbm=isch&q=supermoto+wheelie">disturb the peace on my supermotard</a>. Spot them in the background along with other various vehicles from my past. </p>
-<p>I am formally a computer scientist according to the Univeristy of Connecticut, but really I am just <a href="/work.html">thrilled to be creating for the web</a>.</p>
-    <p>If you use these things, you can follow me on <a href="http://twitter.com/jumph4x">Twitter</a>, <a href="http://www.jumph4x.net">Tumblr</a> or <a href="http://github.com/jumph4x">Github</a>.<br/>Otherwise, email me directly: at <code>&#100;&#101;&#110;&#105;&#115;&#064;&#100;&#111;&#119;&#110;&#115;&#104;&#105;&#102;&#116;&#108;&#097;&#098;&#115;&#046;&#099;&#111;&#109;</code></p>
--->
