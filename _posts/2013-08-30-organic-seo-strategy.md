@@ -3,8 +3,6 @@ layout: post
 title: Longterm Organic SEO Strategy
 excerpt: See how I applied the essence of the Google PageRank algorithm to re-engineer the layout of the page and the nav.
 subhead: I have it on <b>lockdown</b>
-
-featured: yes
 ---
 
 A longterm SEO strategy is absolutely crucial for any company deriving revenue from an eCommerce stack. 
