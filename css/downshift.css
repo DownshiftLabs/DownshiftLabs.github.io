@@ -90,6 +90,9 @@ i[class^="icon-"]{
   border-bottom: 1px solid rgba(0,0,0,0.3);
   background: rgba(0,0,0,0.05);
 }
+.services .columns{
+  padding-top: 170px;
+}
 .services .columns h2{
   font-size: 2.5em;
   text-align: center;
@@ -103,6 +106,15 @@ i[class^="icon-"]{
 }
 .services a:hover{
   background: #bedd15; 
+}
+.train{
+  background: url(/img/icons/train.png) center 50px no-repeat;
+}
+.audit{
+  background: url(/img/icons/audit.png) center 55px no-repeat;
+}
+.program{
+  background: url(/img/icons/program.png) center 30px no-repeat;
 }
 .work{
   padding-top: 4em;
