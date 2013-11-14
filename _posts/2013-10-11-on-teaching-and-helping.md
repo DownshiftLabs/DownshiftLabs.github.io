@@ -23,7 +23,8 @@ So, reach out to me directly if:
  -   You are learning on your own but could use a tutor here-and-there
  -   You are excited by the prospect of building a website/app but don't know where to start
  -   You really want to become a programmer, but really cannot afford the basics, like a laptop and a place with an Internet connection, or maybe you're looking for books
+ -   **You have a more constructive format to suggest to me. I'm listening**
 
-No, I'm not looking to earn money doing this. Lots of open source initiatives and free tutorials helped me get started when I was still in Highschool. I want to continue the cycle that rewards those who seek knowledge and self-fulfillment.
+Lots of open source initiatives and free tutorials helped me get started when I was still in Highschool. I want to continue the cycle that rewards those who seek knowledge and self-fulfillment.
 
 I want a future that is more colorful than the bleak SF boys club that I see right now. I'm Denis, how can I help? 
