@@ -28,6 +28,10 @@ I had specific goals in mind and I've achieved them all:
 
 Check out the [documentation](https://github.com/jumph4x/durable_decorator) and see if you'd like to give it a go. If you're managing a large Spree store like me, you're going to want to see what all the fuss is about.
 
+## SpreeConf 2014 Ligthing Talk
+
+I delivered a brief talk about the design and benefits of this project at SpreeConf in New York and you can check out the slides [here](http://slid.es/jumph4xx/durable-decorator).
+
 ## I don't feel like it...
 
 I know you're busy. So am I. That's why I wrote a [Rails connector](https://github.com/jumph4x/durable_decorator_rails) that does all the legwork.
@@ -37,6 +41,6 @@ Specifically, with this connector you can run a Rails generator that will genera
 Additionally you can just run a rake task that will print the hash of the method definition as it is loaded into memory.
 
 
-Enjoy! And may your Spree projects be more durable hereonafter. 
+Enjoy! And may your Spree projects be more durable hereonafter.
 
 _(Although, technically, this is usable in any Rails/Ruby project that does a lot of monkey-patching.)_

@@ -3,8 +3,6 @@ layout: post
 title: On Teaching, Helping and Speaking Out
 excerpt: Our industry has problems it needs to face. Here are some things I have done, will continue doing and things I am considering doing
 subhead: Shift the <b>power</b>
-
-featured: yes
 ---
 
 I write software for a living and I am thoroughly fulfilled in my craft. I am rather privileged to be earning a living the way I am.

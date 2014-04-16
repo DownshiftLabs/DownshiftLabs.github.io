@@ -19,7 +19,7 @@ body{
 }
 h1{
   font-size: 4em;
-  margin: 2em 0 1em;
+  margin: 1em 0;
   line-height: 1.2em;
 }
 h2{
@@ -237,7 +237,7 @@ a.anim{
   background: #fff;
   box-shadow: 0 0 19px rgba(0,0,0,0.1);
   padding: 3em 2em;
-  margin: 1em 0;
+  margin: 1em 0 5em 0;
   font-size: 1.2em;
 }
 .body ul{

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Talk on Tuning Frontend Performance for UX (and Profit)
+title: Talk on Tuning Frontend Performance for UX
 excerpt: I delivered a talk on improving the overall user happiness by speeding up the slowest part of any webapp - the frontend.
 subhead: The audience <b>loved</b> it
 
@@ -49,3 +49,7 @@ Here are the slides I ended up delivering before the audience:
 Remember, you can always hire me to implement any of the ideas above.
 
 Good luck with optimizing your front-end, your users will love you for it.
+
+## Edit
+
+I re-delivered an altered/updated version of this talk again at SpreeConf 2014. The updated version is [here](http://slid.es/jumph4xx/frontend-things).
