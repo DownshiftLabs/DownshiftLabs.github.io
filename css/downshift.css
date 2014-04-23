@@ -240,8 +240,8 @@ a.anim{
   margin: 1em 0 5em 0;
   font-size: 1.2em;
 }
-.body ul{
-  list-style: circle;
+.body ul,
+.body ol{
   margin-left: 1.5em;
 }
 .body h2{

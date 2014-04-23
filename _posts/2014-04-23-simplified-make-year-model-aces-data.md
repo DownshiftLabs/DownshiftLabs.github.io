@@ -25,6 +25,7 @@ with a simplified version at enormous savings.**
 
 The simplified version includes only the following relationally mapped
 (or de-normalized) data:
+
 1.   Make
 1.   Model
 1.   Year
