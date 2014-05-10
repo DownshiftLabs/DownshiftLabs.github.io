@@ -11,9 +11,10 @@ After attending the [first ever SpreeConf in NYC](http://spreecommerce.com/blog/
 
 When the time came to submit talks to SpreeConf 2013, I looked at what I was working on and submitted an abstract about raising the technical bar of the frontend markup we put before our users.
 
-Here are the slides I ended up delivering before the audience:
+The 2014 version of this talk was filmed at the NYC SVA threatre and is available online for free:
+<iframe width="853" height="480" src="//www.youtube-nocookie.com/embed/nXD9DycK4gY?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<script async="async" class="speakerdeck-embed" data-id="8e368a70a36501306e961ed4f3fbbc75" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+The slides used are available on [Slid.es](http://slid.es/jumph4xx/frontend-things).
 
 ## Summary
 
@@ -42,14 +43,10 @@ Here are the slides I ended up delivering before the audience:
  -   Use prefetch (and even pre-render) meta HTML tags to give browsers hints on what is coming next
  -   Instead of taking paid SEO advice at face value, spend the time reading Google's Webmaster Academy
  -   Make URL's trimmable, take advantage of RegEx matching in the Rails router to make URLs look great
- -   Canonicalie your content! Hint: [I wrote a gem for that](/2013/08/22/rails-content-canonicalization-gem.html)
+ -   Canonicalize your content! Hint: [I wrote a gem for that](/2013/08/22/rails-content-canonicalization-gem.html)
  -   Mark up your content semanticallyand test it using the [Google Rich Snippets Tool](http://www.google.com/webmasters/tools/richsnippets)
  -   Use content pages with high existing SEO and build a topnav that distributes the visitors (and PageRank) back through the rest of the site
 
 Remember, you can always hire me to implement any of the ideas above.
 
 Good luck with optimizing your front-end, your users will love you for it.
-
-## Edit
-
-I re-delivered an altered/updated version of this talk again at SpreeConf 2014. The updated version is [here](http://slid.es/jumph4xx/frontend-things).

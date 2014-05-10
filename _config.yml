@@ -8,4 +8,4 @@ safe: false
 baseurl: /
 
 markdown: rdiscount
-pygments: true
+highliter: true
