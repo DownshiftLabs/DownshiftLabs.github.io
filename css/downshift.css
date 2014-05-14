@@ -88,12 +88,14 @@ i[class^="icon-"]{
 .competencies .anim .bottom{
   text-align: center;
 }
-.services{
-  margin-top: 2em;
-  padding: 4em 0;
+.grey-bar{
   border-top: 1px solid rgba(0,0,0,0.3);
   border-bottom: 1px solid rgba(0,0,0,0.3);
   background: rgba(0,0,0,0.05);
+}
+.services{
+  margin-top: 2em;
+  padding: 4em 0;
 }
 .services .columns{
   padding-top: 135px;
@@ -110,7 +112,7 @@ i[class^="icon-"]{
   text-decoration: underline;
 }
 .services a:hover{
-  background: #bedd15; 
+  background: #bedd15;
 }
 .train{
   background: url(/img/icons/train.png) center 40px no-repeat;
@@ -169,34 +171,24 @@ a.anim{
   -webkit-transform: translateZ(56px) translateY(-56px) rotateX(0deg);
   -moz-transform: translateZ(56px) translateY(-56px) rotateX(0deg);
 }
-.contact{
+.bg{
   border-top: 1px solid rgba(0,0,0,0.7);
   background: url(/img/talks.jpg);
   background-size: cover;
   background-position: center bottom;
 }
+.contact{
+  padding: 2em 0;
+}
 .contact a{
-  color: #fff !important;
-  font-size: 2.5em;
-  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+  /*color: #fff !important;*/
+  color: #333;
+  font-size: 2em;
+  display: inline-block;
+  /*text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);*/
 }
 .contact a:hover{
   color: #bedd15 !important; 
-}
-.contact .tint{
-  background: rgba(0,0,0,0.7);
-  border-radius: 10px;
-  padding: 10px 35px;
-  text-align: center;
-  margin-top: 25em;
-}
-.contact span{
-  background-color: transparent;
-  color: transparent;
-  border: 0;
-  font: 0/0 a;
-  text-shadow: none;
-  display: none;
 }
 .overlay{
   background: url(/img/overlay.png);
@@ -204,7 +196,7 @@ a.anim{
   padding: 2em 0;
 }
 .iconz a{
-  margin: 0 0.2em;
+  margin: 0.3em;
 }
 #posts .title{
   background: rgba(190,221,21, 1);
@@ -270,7 +262,7 @@ a.anim{
     margin: -37% auto 0 auto;
   }
 
-  .tel a, .iconz a{
-    font-size: 3.5em;
+  .contact a{
+    font-size: 2.7em;
   }
 }
