@@ -199,6 +199,9 @@ a.anim{
   display: inline-block;
   color: transparent;
   opacity: 0.6;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100%;
 }
 .clients a:hover{
   opacity: 1;
