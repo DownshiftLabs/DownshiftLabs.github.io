@@ -201,19 +201,25 @@ a.anim{
   opacity: 0.6;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center center;
   max-width: 100%;
 }
 .clients a:hover{
   opacity: 1;
 }
 .glm{
-  background: url(/img/logos/gin_lane.png);
+  background-image: url(/img/logos/gin_lane.png);
   width: 465px;
   height: 108px;
 }
 .fcp{
-  background: url(/img/logos/fcp_euro.png);
-  width: 450px;
+  background-image: url(/img/logos/fcp_euro.png);
+  width: 565px;
+  height: 108px;
+}
+.fastly{
+  background-image: url(/img/logos/fastly.png);
+  width: 350px;
   height: 108px;
 }
 .overlay{
