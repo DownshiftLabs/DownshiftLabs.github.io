@@ -1,39 +1,44 @@
-<!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<div class='contain-to-grid sticky'>
+  <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class='name'>
+        <h1>
+          <a href='{{site.url}}/index.html'>
+            <img alt="" src="{{site.url}}/images/logo-bordered.png" />
+          </a>
+        </h1>
+      </li>
+      <li class='toggle-topbar menu-icon'>
+        <a href='#'>Menu</a>
+      </li>
+    </ul>
+    <section class='top-bar-section'>
+      <ul class="right">
+        {% for item in site.data.nav %}
+          {% if item.section_id == page.section_id %}
+            {% assign active_class = "active" %}
+          {% else %}
+            {% assign active_class = "" %}
+          {% endif %}
 
-<head>
-	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  {% if page.title %}
-    <title>{{page.title}} | Downshift Labs</title>
-  {% else %}
-    <title>Spree Commerce Consultant in SF Bay Area | Downshift Labs</title>
-  {% endif %}
-  <link rel="stylesheet" href="/css/foundation.css">
-  <link rel="stylesheet" href="/css/downshift.css">
-  <link href='http://fonts.googleapis.com/css?family=Raleway:100,400' rel='stylesheet' type='text/css'>
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <script src="/js/vendor/custom.modernizr.js"></script>
-</head>
-<body>
-  <div class="contain-to-grid fixed">
-    <nav class="top-bar">
-      <ul class='title-area'>
-        <li class="name"><a href="/" id="logo" class="anim"><img src="/img/logo.png" /></a></li>
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          {% if item.children %}
+            <li class="has-dropdown {{active_class}}">
+              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+              <ul class='dropdown'>
+                {% for child in item.children %}
+                  <li>
+                    <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="{{active_class}}">
+              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
       </ul>
-
-      <section class="top-bar-section">
-        <ul class="right fancy">
-          <li><a title='Take a look at how we can help your business' href="/#services">Services</a></li>
-          <li><a title='Reputable names Downshift Labs engages with' href="/#clients">Clients</a></li>
-          <li><a title="Hard evidence we're up to snuff for your next project" href="/#work">Work</a></li>
-          <li><a title="Hear me talk and learn about frontend optimization" href="/2013/08/25/tuning-frontend-performance.html">Speaking</a></li>
-          <li><a title="Ready to talk? Reach out." href="#contact">Get in touch</a></li>
-        </ul>
-      </section>
-    </nav>
-  </div>
-
-  <div id="main" role="main">
+    </section>
+  </nav>
+</div>
