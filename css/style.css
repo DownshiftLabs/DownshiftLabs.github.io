@@ -627,6 +627,18 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+.highlight-text h2{
+  color: rgba(183, 205, 0, 1) !important;
+}
+
+.highlight-text .small-title h2{
+  color: #000 !important;
+}
+
+.black-text h2{
+  color: #000 !important;
+}
+
 hr {
   border-color: #eee;
 }
@@ -778,13 +790,13 @@ ul.shortcode-list i {
 .button {
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #fff;
-  background: #F9CE06;
-  border: 2px solid #F9CE06;
+  color: #000;
+  background: #b7cd00;
+  border: 2px solid #b7cd00;
 }
 
 .button:hover {
-  background-color: rgba(249, 206, 6, 0.8);
+  background: rgba(183, 205, 0, 0.7) !important;
 }
 
 .button.boxed {
@@ -2514,7 +2526,7 @@ form input.error, form textarea.error {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
 }
-.modDefaultSlider .sequence .title h2 {
+.modDefaultSlider .title h2 {
   font-size: 5.14286rem;
   line-height: 5.14286rem;
   display: inline-block;
@@ -2524,7 +2536,7 @@ form input.error, form textarea.error {
   margin-bottom: 40px;
   text-transform: uppercase;
 }
-.modDefaultSlider .sequence .small-title h2 {
+.modDefaultSlider .small-title h2 {
   font-size: 1.28571rem;
   font-weight: normal;
   color: #fff;
