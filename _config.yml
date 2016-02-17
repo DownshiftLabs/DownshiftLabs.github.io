@@ -4,11 +4,10 @@ email: denis@downshiftlabs.com
 description: > # this means to ignore newlines until "baseurl:"
   Helping brands wow their customers with speed, clarity and feel.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.downshiftlabs.com" # the base hostname & protocol for your site
+url: '' # "http://www.downshiftlabs.com" # the base hostname & protocol for your site
 github_username:  jumph4x
 
 # Build settings
 markdown: kramdown
-
 paginate: 3
 paginate_path: "blog/page:num"

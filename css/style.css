@@ -3027,7 +3027,7 @@ form input.error, form textarea.error {
   margin: 0;
 }
 .modIconText .icon-text-circle:hover i {
-  color: #F9CE06;
+  color: rgb(200,222,0);
 }
 .modIconText .icon-text-simple i {
   font-size: 3.42857rem;
@@ -3256,7 +3256,7 @@ body {
   width: 66%;
   margin: 0 auto;
   height: 2px;
-  background: #F9CE06;
+  background: rgb(200,222,0);
   display: block;
 }
 
@@ -3280,20 +3280,24 @@ body {
   background: currentColor;
   display: block;
 }
-.modTeamMember .member {
+.modClient .client {
   position: relative;
   overflow: hidden;
   margin-bottom: 20px;
+	height: 250px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
-.modTeamMember ul {
+.modClient ul {
   margin: 0;
 }
-.modTeamMember ul li {
+.modClient ul li {
   list-style: none;
   display: inline-block;
   margin-right: 8px;
 }
-.modTeamMember ul i {
+.modClient ul i {
   width: 36px;
   height: 36px;
   -moz-border-radius: 18px;
@@ -3305,10 +3309,10 @@ body {
   font-size: 1.125rem;
   line-height: 2.5rem;
 }
-.modTeamMember img {
+.modClient img {
   width: 100%;
 }
-.modTeamMember .overlay {
+.modClient .overlay {
   opacity: 0;
   background-color: rgba(255, 255, 255, 0.9);
   text-align: center;
@@ -3318,19 +3322,19 @@ body {
   position: absolute;
   top: 100%;
 }
-.modTeamMember .overlay .intro {
+.modClient .overlay .intro {
   position: relative;
   top: 50%;
   margin-top: -60px;
 }
-.modTeamMember .overlay h3 {
+.modClient .overlay h3 {
   margin-bottom: 10px;
 }
-.modTeamMember .overlay p {
+.modClient .overlay p {
   font-style: italic;
   margin-bottom: 30px;
 }
-.modTeamMember .member:hover .overlay {
+.modClient .client:hover .overlay {
   opacity: 1;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -3339,18 +3343,18 @@ body {
   top: 0;
 }
 
-.modTeamMember.style-2 h3 {
+.modClient.style-2 h3 {
   margin-bottom: 0;
 }
-.modTeamMember.style-2 p.position {
+.modClient.style-2 p.position {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 0.8rem;
 }
-.modTeamMember.style-2 .overlay {
+.modClient.style-2 .overlay {
   background-color: rgba(255, 255, 255, 0.7);
 }
-.modTeamMember.style-2 .overlay ul.socials {
+.modClient.style-2 .overlay ul.socials {
   position: relative;
   top: 50%;
   margin-top: -18px;
@@ -3615,24 +3619,24 @@ body {
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 60em) {
-  .modTeamMember .overlay {
+  .modClient .overlay {
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.8);
     top: 0;
   }
-  .modTeamMember .overlay .intro {
+  .modClient .overlay .intro {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 60%;
   }
-  .modTeamMember .overlay h3 {
+  .modClient .overlay h3 {
     margin-bottom: 3px;
   }
-  .modTeamMember .overlay p {
+  .modClient .overlay p {
     margin-bottom: 10px;
   }
-  .modTeamMember ul i {
+  .modClient ul i {
     width: 24px;
     height: 24px;
     -moz-border-radius: 12px;
@@ -3642,10 +3646,10 @@ body {
     line-height: 1.8rem;
   }
 
-  .modTeamMember.style-2 .overlay {
+  .modClient.style-2 .overlay {
     background-color: rgba(255, 255, 255, 0.7);
   }
-  .modTeamMember.style-2 .overlay ul.socials {
+  .modClient.style-2 .overlay ul.socials {
     position: absolute;
     width: 100%;
     top: 50%;

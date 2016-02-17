@@ -1,6 +1,16 @@
-- image: images/@stock/client-1.png
-- image: images/@stock/client-2.png
-- image: images/@stock/client-3.png
-- image: images/@stock/client-4.png
-- image: images/@stock/client-5.png
-- image: images/@stock/client-6.png
+- name: FCP Euro
+  logo: images/clients/fcp_euro.png
+  url: https://www.fcpeuro.com
+  desc: 'The #1 online source for Genuine & OEM European replacement car parts since 1986'
+- name: Gin Lane Media
+  logo: images/clients/gin_lane.png
+  url: http://ginlane.com/
+  desc: A prestiguous agency with the goal of creating a world of frictionless and intuitive experiences
+- name: Fastly
+  logo: images/clients/fastly.png
+  desc: The only real-time CDN that gives businesses complete control over how they serve content
+  url: https://www.fastly.com/
+- name: Farmers Only
+  logo: images/clients/farmers_only.png
+  url: http://www.farmersonly.com/
+  desc: An online dating site meant for down to earth folks only

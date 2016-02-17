@@ -135,20 +135,6 @@ works:
     klass: 
     desc: A pacific sunset rich with color framed by SF Dogpatch features
 
-services:
-  - icon: trophy
-    title: Web Design
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: cogs
-    title: Web Development
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: pagelines
-    title: Branding
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: lock
-    title: Security
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-
 milestones:
   - icon: folder-open
     from: 0
@@ -276,37 +262,40 @@ milestones:
   </div>
 </div>
 
-
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our services" %}
+      {% include section-header.html title="Clients" %}
       <div class='spacing'></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class='three spacing'></div>
+      <p>Having worked with clients as large as $65 million and as small as an individual, I'm equally as comfortable presenting to an audience of hundreds as I am informally chatting at a cafe. </p>
+      <div class='two spacing'></div>
     </div>
   </div>
+
   <div class='row'>
-    <div class='medium-6 columns'>
-      <img class="fadeinleft" alt="" src="images/@stock/responsive.png" />
-      <div class='three spacing'></div>
-    </div>
-    <div class='medium-6 columns'>
-      {% for service in page.services %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
+    {% for client in site.data.clients %}
+      <div class='small-6 medium-3 large-3 columns'>
+        <div class='mod modClient'>
+          <div class='client' style="background-image: url({{client.logo}})" >
+            <div class='overlay'>
+              <div class='intro'>
+                <h3>{{client.name}}</h3>
+                <p>{{client.desc}}</p>
+                <ul class='socials'>
+									<li>
+										<a href='{{client.url}}' target="_blank">
+											<i class='fa fa-external-link'></i>
+										</a>
+									</li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div class='two spacing'></div>
         </div>
-      {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
   </div>
-  <div class='spacing'></div>
 </div>
 
 
@@ -334,46 +323,6 @@ milestones:
     {% endfor %}
   </div>
   <div class='two spacing'></div>
-</div>
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Our team" %}
-      <div class='spacing'></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class='two spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    {% for member in site.data.members %}
-      <div class='small-6 medium-3 large-3 columns'>
-        <div class='mod modTeamMember'>
-          <div class='member'>
-            <img class="avatar" alt="" src="{{ member.avatar }}" />
-            <div class='overlay'>
-              <div class='intro'>
-                <h3>{{member.name}}</h3>
-                <p>{{member.position}}</p>
-                <ul class='socials'>
-                  {% for social in member.socials %}
-                    <li>
-                      <a href='{{social.link}}'>
-                        <i class='fa fa-{{social.icon}}'></i>
-                      </a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
 </div>
 
 <div class='full' style='background: #f5f5f5'>
