@@ -3150,7 +3150,7 @@ body {
 .modMilestone i {
   font-size: 36px;
   color: #333;
-  background: #F9CE06;
+  background: rgb(200,222,0);
   width: 90px;
   height: 90px;
   -moz-border-radius: 45px;
