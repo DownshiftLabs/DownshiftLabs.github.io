@@ -13,6 +13,9 @@
 - name: Experience
   path: '#experience'
   section_id: contact
+- name: Reel
+  path: '#reel'
+  section_id: reel
 - name: Blog
   path: blog/
   section_id: blog
